@@ -1,5 +1,7 @@
 *Italics!*
+
 **Bold**
+
 ~~Strikethru~~
 
 ---

@@ -1,3 +1,9 @@
+[Lab Report 1 Link 1](lab-report-1-week-2.html)
+
+[Lab Report 1 Link 2](https://lasteternity.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+---
+
 *Italics!*
 
 **Bold**

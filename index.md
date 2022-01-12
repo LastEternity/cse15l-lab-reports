@@ -41,4 +41,4 @@ It's pretty impressive.
 ---
 
 ![Image](https://cdn.pixabay.com/photo/2015/09/17/17/25/code-944499_960_720.jpg)
-<sub><sup>Credit to Lawrence Monk</sup></sub>
+\n<sub><sup>Credit to Lawrence Monk</sup></sub>

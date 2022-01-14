@@ -45,4 +45,4 @@ Now that you are remotely connected, you can try some commands. I personally tri
 <br>
 <br>
 
-Now that you have tried out several commands, it is time to test the scp command, which moves files from the client to the server. In order to use this, the <code>scp [file_name] cs15lwi22zz@ieng6.ucsd.edu:~/</code> command must be run on the local computer's terminal. Once done, you will be prompted for the password; submit it and the scp command should have copied the file over to the new directory.
+Now that you have tried out several commands, it is time to test the scp command, which moves files from the client to the server. In order to use this, the <code>scp [file_name] cs15lwi22zz@ieng6.ucsd.edu:~/</code> command must be run on the local computer's terminal. Once done, you will be prompted for the password; submit it and the scp command should have copied the file over to the server.

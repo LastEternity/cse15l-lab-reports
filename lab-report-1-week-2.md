@@ -8,8 +8,15 @@ This will be a tutorial for incoming 15L students about how to log into a course
 5. Setting an SSH Key
 6. Optimizing Remote Running
 
-<div>
-  First, Install VSCode. The link can be found <a href="https://code.visualstudio.com/download">here</a>. Download the correct version for your PC.
-  </div>
+<br>
+First, Install VSCode. The link can be found <a href="https://code.visualstudio.com/download">here</a>. Download the correct version for your PC. Once done, it should look like the second image depicted underneath. <br>
+<br>
+<img src="DownloadVSCode.png">
 
-![Image](CSE15Lab1.png)
+
+<sub><sup>First, download VS code</sup></sub>
+
+<img src="VisualStudioCode.png">
+
+
+<sub><sup>Once download, open and it should look like this.</sup></sub>

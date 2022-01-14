@@ -1,13 +1,22 @@
 <p align="center">
-  [Setting Up for CSE15L -- Lab Report 1]
+  <a href="www.google.com">Google!</a>
+  Welcome to Adrian's CSE15L Website! 
 </p>
 
 ---
+
 <p align="center">
-[Lab Fonts & Initial Practice -- Week 2]
-  </p>
+  <h1 style="font-size:60px;">Lab Reports</h1>
+  <a href="https://lasteternity.github.io/cse15l-lab-reports/lab-report-1-week-2.html">Setting Up for CSE15L -- Lab Report 1</a>
+</p>
 
-<sub><sup>Credit to Lawrence Monk</sup></sub>
+---
 
-[Setting Up for CSE15L -- Lab Report 1]: https://lasteternity.github.io/cse15l-lab-reports/lab-report-1-week-2.html
-[Lab Fonts & Initial Practice -- Week 2]: https://lasteternity.github.io/cse15l-lab-reports/testing.html
+<p align="center">
+  <h1 style="font-size:60px;">Week-Specific Activities</h1>
+  <a href="https://lasteternity.github.io/cse15l-lab-reports/testing.html">Lab Fonts & Initial Practice -- Week 2</a>
+</p>
+
+
+<sub><sup>Created By Adrian Rosing for CSE15L @ UCSD</sup></sub>
+

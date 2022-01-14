@@ -38,7 +38,9 @@ Now that you are remotely connected, you can try some commands. I personally tri
 
 
 <sub><sup>Here are some command examples and their functions. Credits to Cao, from CSE12.</sup></sub>
+<br/>
 <img src="CommandExamples.png">
+
 <br>
 <sub><sup>Here is an example of the cat command being run on a window's client. As my laptop does not have linux enabled, it failed.</sup></sub>
 <br>

@@ -33,3 +33,16 @@ Now that Visual Studio Code is installed, you will need to remote connect to the
 <sub><sup>Once OpenSSH is set up, follow the instructions above; your screen should look like this.</sup></sub>
 <br>
 <br>
+
+Now that you are remotely connected, you can try some commands. I personally tried the <code>cat</code> command which can print out a file's contents, for example. Depending on the commands which are tried, different results may occur and/or some may not work (on your local machine, for example). Displayed are some examples:
+
+<img src="CommandExamples.png">
+<sub><sup>Here are some command examples and their functions. Credits to Cao, from CSE12.</sup></sub>
+<img src="CatCommandOnClient.png">
+<sub><sup>Here is an example of the cat command being run on a window's client. As my laptop does not have linux enabled, it failed.</sup></sub>
+<img src="CatCommandOnServer.png">
+<sub><sup>Here is the cat command being run on the UCSD server; as seen, the example file was not accessible to my account, however, the command did run.</sup></sub>
+<br>
+<br>
+
+Now that you have tried out several commands, it is time to test the scp command, which moves files from the client to the server. In order to use this, the <code>scp [file_name] cs15lwi22zz@ieng6.ucsd.edu:~/</code> command must be run on the local computer's terminal. Once done, you will be prompted for the password; submit it and the scp command should have copied the file over to the new directory.

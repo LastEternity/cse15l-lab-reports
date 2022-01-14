@@ -65,4 +65,33 @@ This will be a tutorial for incoming 15L students about how to log into a course
 <br>
 <br>
 
-(5) Of course, this is a slow process -- in our group, it took over 50 seconds to copy files from the client to the server. In order to speed it up, we set up SSH keys, which can quickly allow logging into the server via local, saved files. If on windows, there is an extra step; you must go and follow the steps shown <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation">here</a>. It should look like this:
+(5) Of course, this is a slow process -- in our group, it took over 50 seconds to copy files from the client to the server. In order to speed it up, we set up SSH keys, which can quickly allow logging into the server via local, saved files. If on windows, there is an extra step; you must go and follow the steps shown <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation">here</a>. It should be done like this:
+
+<sub><sup>First, set up the key on your client. Credits to Joe Politz, Week 1 Lab.</sup></sub>
+<br/>
+<img src="CreateKeyOnClient.png">
+
+<br>
+<sub><sup>Then, establish it on thhe server. Credits to Joe Politz, Week 1 Lab.</sup></sub>
+<br/>
+<img src="CreateKeyOnServer.png">
+
+<br>
+<sub><sup>Once done, it should look like this (example taken from my terminal during the project).</sup></sub>
+<br/>
+<img src="SSHKeygen.png">
+<br>
+<br>
+
+(6) Now that all this has been completed, your remote running experience has been optimized. However, it can be optimized even further via the use of one extra command - <code>ssh cs15lwi22zz@ieng6.ucsd.edu "javac [file_name]; java [file_name]"</code>, which will take a file from the client, copy it to the server, and then run it in the server in one step, without any passwords.
+
+<sub><sup>Shown underneath is the optimized running process once the key has been set up -- the password is no longer required for every step.</sup></sub>
+<br/>
+<img src="CreateKeyOnClient.png">
+
+<br>
+<br>
+
+Thank you for reading my full first lab report which serves as a tutorial on using ieng6! This concludes my lab report for Weeks 1 and 2 of CSE15L! 
+
+<a href="https://lasteternity.github.io/cse15l-lab-reports/">Click Here To Go Back Home!</a>

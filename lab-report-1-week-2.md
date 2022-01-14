@@ -87,7 +87,7 @@ This will be a tutorial for incoming 15L students about how to log into a course
 
 <sub><sup>Shown underneath is the optimized running process once the key has been set up -- the password is no longer required for every step.</sup></sub>
 <br/>
-<img src="CreateKeyOnClient.png">
+<img src="OptimizedRun.png">
 
 <br>
 <br>

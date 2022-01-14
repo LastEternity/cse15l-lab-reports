@@ -37,10 +37,15 @@ Now that Visual Studio Code is installed, you will need to remote connect to the
 Now that you are remotely connected, you can try some commands. I personally tried the <code>cat</code> command which can print out a file's contents, for example. Depending on the commands which are tried, different results may occur and/or some may not work (on your local machine, for example). Displayed are some examples:
 
 <img src="CommandExamples.png">
+<br>
 <sub><sup>Here are some command examples and their functions. Credits to Cao, from CSE12.</sup></sub>
+<br>
 <img src="CatCommandOnClient.png">
+<br>
 <sub><sup>Here is an example of the cat command being run on a window's client. As my laptop does not have linux enabled, it failed.</sup></sub>
+<br>
 <img src="CatCommandOnServer.png">
+<br>
 <sub><sup>Here is the cat command being run on the UCSD server; as seen, the example file was not accessible to my account, however, the command did run.</sup></sub>
 <br>
 <br>

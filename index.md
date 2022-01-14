@@ -13,7 +13,7 @@
 
 <p align="center">
   <h2>Week-Specific Activities</h2>
-  <a href="https://lasteternity.github.io/cse15l-lab-reports/testing.html">Lab Fonts & Initial Practice -- Week 2</a>
+  <a href="https://lasteternity.github.io/cse15l-lab-reports/Week2PracticePage.html">Lab Fonts & Initial Practice -- Week 2</a>
 </p>
 
 

@@ -9,6 +9,8 @@ This will be a tutorial for incoming 15L students about how to log into a course
 6. Optimizing Remote Running
 
 <br>
+<br> 
+
 First, Install VSCode. The link can be found <a href="https://code.visualstudio.com/download">here</a>. Download the correct version for your PC. Once done, it should look like the second image depicted underneath. <br>
 <br>
 <img src="DownloadVSCode.png">
@@ -20,3 +22,7 @@ First, Install VSCode. The link can be found <a href="https://code.visualstudio.
 
 
 <sub><sup>Once download, open and it should look like this.</sup></sub>
+<br>
+<br>
+
+Now that Visual Studio Code is installed, you will need to remote connect to the UCSD server. In order to do this, first install OpenSSH (if on Windows), <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse">here</a>. Following that, please find your login credentials, from UCSD <a href="https://sdacs.ucsd.edu/~icc/index.php">here</a>. Once you have the account information, open Visual Studio Code and type <code>ssh cs15lwi22zz@ieng6.ucsd.edu</code> from the terminal. Following this, type your account-specific password in order to connect, as displayed in the images below. 

@@ -1,5 +1,4 @@
 <p align="center">
-  <a href="www.google.com">Google!</a>
   Welcome to Adrian's CSE15L Website! 
 </p>
 

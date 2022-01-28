@@ -43,9 +43,30 @@ As seen above, the call to substring was invalid -- it was not able to handle a 
 <br>
 <sub><sup>Here is the code changes which solved the bug by checking for if an index was found:</sup></sub>
 <br/>
-<img src="TextAtEnd.png">
+<img src="SecondBugFixed.png">
 <br>
 
+
+<br>
+<h3 style="font-size:25px;">Third Bug</h3>
+The third bug we noticed and worked through for this program was caused by this markdown file: <a href="https://github.com/LastEternity/markdown-parse/blob/main/test-file.md"> Word At End</a>. This bug was was caused because the original program was only able to end on a closed parenthesis. If any other character were added, at the end, the while loop would just continue forever, causing an invalid heap error. The bug caused the symptom shown below to appear: 
+
+
+<br>
+<sub><sup>Here is the symptom caused by the bug:</sup></sub>
+<br/>
+<img src="ThirdBugError.png">
+
+<br>
+
+As seen above, the loop was unable to end and eventually burnt out.
+
+
+<br>
+<sub><sup>Here is the code changes which solved the bug by checking for if there would be remaining parenthesis at the end; if there weren't, then it would exit the loop:</sup></sub>
+<br/>
+<img src="TextAtEnd.png">
+<br>
 
 
 

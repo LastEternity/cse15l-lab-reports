@@ -1,7 +1,7 @@
-<h1 style="font-size:30px;">Week 2 Lab Report</h1>
+<h1 style="font-size:35px;">Week 2 Lab Report</h1>
 <br>
 <br>
-<h3 style="font-size:12px;">Summary</h3>
+<h3 style="font-size:25px;">Summary</h3>
 This will be a tutorial for incoming 15L students about how to log into a course-specific account on ieng6. Included will be short descriptions and screenshots of:
 1. Installing VScode
 2. Remotely Connecting
@@ -12,7 +12,7 @@ This will be a tutorial for incoming 15L students about how to log into a course
 
 <br>
 <br> 
-<h3 style="font-size:12px;">Installing VScode</h3>
+<h3 style="font-size:25px;">Installing VScode</h3>
 (1) First, Install VSCode. The link can be found <a href="https://code.visualstudio.com/download">here</a>. Download the correct version for your PC. Once done, it should look like the second image depicted underneath. <br>
 <br>
 <img src="DownloadVSCode.png">
@@ -37,7 +37,7 @@ This will be a tutorial for incoming 15L students about how to log into a course
 <br>
 <br>
 
-<h3 style="font-size:12px;">Trying Some Commands</h3>
+<h3 style="font-size:25px;">Trying Some Commands</h3>
 (3) Now that you are remotely connected, you can try some commands. I personally tried the <code>cat</code> command which can print out a file's contents, for example. Depending on the commands which are tried, different results may occur and/or some may not work (on your local machine, for example). Displayed are some examples:
 
 
@@ -56,7 +56,7 @@ This will be a tutorial for incoming 15L students about how to log into a course
 <br>
 <br>
 
-<h3 style="font-size:12px;">Moving Files With SCP</h3>
+<h3 style="font-size:25px;">Moving Files With SCP</h3>
 (4) Now that you have tried out several commands, it is time to test the scp command, which moves files from the client to the server. In order to use this, the <code>scp [file_name] cs15lwi22zz@ieng6.ucsd.edu:~/</code> command must be run on the local computer's terminal. Once done, you will be prompted for the password; submit it and the scp command should have copied the file over to the server.
 
 <sub><sup>Here is the scp command being run on the client.</sup></sub>
@@ -70,7 +70,7 @@ This will be a tutorial for incoming 15L students about how to log into a course
 <br>
 <br>
 
-<h3 style="font-size:12px;">Getting an SSH Key</h3>
+<h3 style="font-size:25px;">Getting an SSH Key</h3>
 (5) Of course, this is a slow process -- in our group, it took over 50 seconds to copy files from the client to the server. In order to speed it up, we set up SSH keys, which can quickly allow logging into the server via local, saved files. If on windows, there is an extra step; you must go and follow the steps shown <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation">here</a>. It should be done like this:
 
 <sub><sup>First, set up the key on your client. Credits to Joe Politz, Week 1 Lab.</sup></sub>
@@ -89,11 +89,12 @@ This will be a tutorial for incoming 15L students about how to log into a course
 <br>
 <br>
 
-<h3 style="font-size:12px;">Optemized Remote Running</h3>
+<h3 style="font-size:25px;">Optemized Remote Running</h3>
 (6) Now that all this has been completed, your remote running experience has been optimized. However, it can be optimized even further via the use of one extra command - <code>ssh cs15lwi22zz@ieng6.ucsd.edu "javac [file_name]; java [file_name]"</code>, which will take a file from the client, copy it to the server, and then run it in the server in one step, without any passwords. 
 <div>
+<div>
 By doing these steps, running the code takes at most 25-30 seconds and it only takes one singular command to copy and move the code over to the remote server and run it. Previously, we had to copy the file over, compile it on the remote host, and then run it on the remote host -- all while typing passwords, which meant that we had a minimum of 4 lines to type -- but often more than that. Over 50 seconds were saved via our optimizations of using the command shown above and setting up keygens. Additionally, I typed on average 220-240 characters less.
-
+<div>
 <sub><sup>Shown underneath is the optimized running process once the key has been set up -- the password is no longer required for every step.</sup></sub>
 <br/>
 <img src="OptimizedRun.png">

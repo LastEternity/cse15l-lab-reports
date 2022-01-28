@@ -12,7 +12,7 @@
 <a href="https://lasteternity.github.io/cse15l-lab-reports/lab-report-2-week-4.html">Debugging and Systematic Testing -- Lab Report 2</a>
 
 
----
+<hr>
 
 
 <p align="center">

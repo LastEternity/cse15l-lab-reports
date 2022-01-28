@@ -90,7 +90,9 @@ This will be a tutorial for incoming 15L students about how to log into a course
 <br>
 
 <h3 style="font-size:12px;">Optemized Remote Running</h3>
-(6) Now that all this has been completed, your remote running experience has been optimized. However, it can be optimized even further via the use of one extra command - <code>ssh cs15lwi22zz@ieng6.ucsd.edu "javac [file_name]; java [file_name]"</code>, which will take a file from the client, copy it to the server, and then run it in the server in one step, without any passwords.
+(6) Now that all this has been completed, your remote running experience has been optimized. However, it can be optimized even further via the use of one extra command - <code>ssh cs15lwi22zz@ieng6.ucsd.edu "javac [file_name]; java [file_name]"</code>, which will take a file from the client, copy it to the server, and then run it in the server in one step, without any passwords. 
+<div>
+By doing these steps, running the code takes at most 25-30 seconds and it only takes one singular command to copy and move the code over to the remote server and run it. Previously, we had to copy the file over, compile it on the remote host, and then run it on the remote host -- all while typing passwords, which meant that we had a minimum of 4 lines to type -- but often more than that. Over 50 seconds were saved via our optimizations of using the command shown above and setting up keygens. Additionally, I typed on average 220-240 characters less.
 
 <sub><sup>Shown underneath is the optimized running process once the key has been set up -- the password is no longer required for every step.</sup></sub>
 <br/>

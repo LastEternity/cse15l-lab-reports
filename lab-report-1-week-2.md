@@ -27,7 +27,7 @@ This will be a tutorial for incoming 15L students about how to log into a course
 <br>
 <br>
 
-<h3 style="font-size:12px;">Remotely Connecting</h3>
+<h3 style="font-size:25px;">Remotely Connecting</h3>
 (2) Now that Visual Studio Code is installed, you will need to remote connect to the UCSD server. In order to do this, first install OpenSSH (if on Windows), <a href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse">here</a>. Following that, please find your login credentials, from UCSD <a href="https://sdacs.ucsd.edu/~icc/index.php">here</a>. Once you have the account information, open Visual Studio Code and type <code>ssh cs15lwi22zz@ieng6.ucsd.edu</code> (cs15lwi22zz will be replaced by your course-specific login) from the terminal. You'll likely be asked a question in the terminal; just answer yes. Following this, type your account-specific password in order to connect, as displayed in the images below. Now, you are connected to your ieng6.
 
 <img src="RemoteConnected.png">

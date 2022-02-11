@@ -10,7 +10,10 @@
 <div>
   
 <a href="https://lasteternity.github.io/cse15l-lab-reports/lab-report-2-week-4.html">Debugging and Systematic Testing -- Lab Report 2</a>
+ 
+<div>
 
+<a href="https://lasteternity.github.io/cse15l-lab-reports/lab-report-3-week-6.html">Copying Directories With scp -r -- Lab Report 3</a>
 
 <hr>
 

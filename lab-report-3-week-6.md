@@ -13,7 +13,7 @@ This will be an example of copying over an entire directory to the remote host; 
 In order to copy a directory over, first check that the current directory is the one that you wish to have copied over with <code>pwd</code>:
 
 <br>
-<img src="CurrentDirectory.png">
+<img src="CorrectDirectory.png">
 <br>
 
 Once the directory is correct, use the command <code>scp -r . cs15lwi22zz@ieng6.ucsd.edu:~/markdown-parse</code> in order to copy over the entire directory; it should look like this:

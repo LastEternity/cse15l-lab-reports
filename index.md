@@ -12,6 +12,8 @@
 <div>
 <a href="https://lasteternity.github.io/cse15l-lab-reports/lab-report-3-week-6.html">Copying Directories With scp -r -- Lab Report 3</a>
 <div>
+<a href="https://lasteternity.github.io/cse15l-lab-reports/lab-report-4-week-8.html">Testing MarkdownParse -- Lab Report 4</a>
+<div>
 
 <hr>
 

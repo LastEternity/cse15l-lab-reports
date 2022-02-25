@@ -77,7 +77,7 @@ For the implementation we reviewed, the JUnit Test failed:
 Meanwhile, for our implementation, the JUnit Passed and picked up <code>"[a.com, a.com(()), example.com]"</code> as shown underneath:
 
 <br>
-<img src="SnippetThreeGroupActual.png">
+<img src="SnippetThreeOurGroupActual.png">
 <br>
 
 <br>

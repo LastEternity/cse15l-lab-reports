@@ -43,4 +43,4 @@ Meanwhile, for our implementation, the JUnit Test also failed, as shown below:
 <img src="SnippetOneOurGroup.png">
 <br>
 
-Shown in the JUnit test, our getLinks() picked up <code>"[url.com, `google.com, google.com, url.com]"</code> instead of <code>"[`google.com, google.com, ucsd.edu]"</code>
+Shown in the JUnit test, our getLinks() picked up <code>"[url.com, \`google.com, google.com, url.com]"</code> instead of <code>"[\`google.com, google.com, ucsd.edu]"</code>

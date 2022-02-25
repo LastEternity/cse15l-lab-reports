@@ -18,6 +18,7 @@ Shown underneath is the markdown files which we ran the code on.
 <br>
 <pre>
 <code>
+``
 `[a link`](url.com)
 
 [another link](`google.com)`
@@ -25,6 +26,7 @@ Shown underneath is the markdown files which we ran the code on.
 [`cod[e`](google.com)
 
 [`code]`](ucsd.edu)
+``
 </code>
 </pre>
 <br>

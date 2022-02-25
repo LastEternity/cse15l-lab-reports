@@ -40,7 +40,7 @@ For the implementation we reviewed, the JUnit Test failed:
 Meanwhile, for our implementation, the JUnit Test also failed, as shown below:
 
 <br>
-<img src="SnippetOneOurGroup.png">
+<img src="SnippetOneOurGroupActual.png">
 <br>
 
-Shown in the JUnit test, our getLinks() picked up <code>"[url.com, \`google.com, google.com, url.com]"</code> instead of <code>"[\`google.com, google.com, ucsd.edu]"</code>
+Shown in the JUnit test, our getLinks() picked up <code>"[url.com, \`google.com, google.com, ucsd.edu]"</code> instead of <code>"[\`google.com, google.com, ucsd.edu]"</code>

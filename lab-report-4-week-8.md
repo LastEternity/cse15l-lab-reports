@@ -82,6 +82,9 @@ Meanwhile, for our implementation, the JUnit Passed and picked up <code>"[a.com,
 
 <br>
 
+Since our code is already able to catch cases that nest parentheses, brackets, and escaped brackets, there are no changes to be made.
+
+
 <br>
 
 <h3 style="font-size:25px;">Snippet 3</h3>

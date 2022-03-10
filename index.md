@@ -14,7 +14,8 @@
 <div>
 <a href="https://lasteternity.github.io/cse15l-lab-reports/lab-report-4-week-8.html">Testing MarkdownParse -- Lab Report 4</a>
 <div>
-
+<a href="https://lasteternity.github.io/cse15l-lab-reports/lab-report-5-week-10.html">Comparing My Code vs. Joes -- Lab Report 5</a>
+<div>
 <hr>
 
 

@@ -15,12 +15,26 @@ This week we experimented with the tests provided by the commonmark-spec. For th
 Shown underneath is the markdown files which we ran the code on.
 <br>
 
-  A
+Here is the output of my code at line 212:
 <br>
-<img src="DifferentResults.png">
+<img src="My194.png">
+<br>
+  
+Here is the output of Joe's at line 212:
+<br>
+<img src="His194.png">
 <br>
 
-  
+<br>
+As can be seen, our implementations differed when reading the 194th markdown test, shown here: 
+ 
+
+Here is the output of Joe's at line 212:
+<br>
+<img src="194.png">
+<br>
+
+  As the expected output is <code>[]</code>, my code worked while Joe's did not.
 <br>
 <br>
 <br>

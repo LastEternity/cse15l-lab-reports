@@ -50,12 +50,12 @@ Shown underneath is the results we got:
 
 Here is the output of my code at line 884:
 <br>
-<img src="My884.png">
+<img src="My497.png">
 <br>
   
 Here is the output of Joe's at line 884:
 <br>
-<img src="His884.png">
+<img src="His497.png">
 <br>
 
 <br>
